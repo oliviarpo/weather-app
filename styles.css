@@ -1,0 +1,220 @@
+body {
+  font-family: "Comfortaa", cursive;
+  padding: 80px 0 0;
+}
+
+header {
+  padding-bottom: 0px;
+  padding-right: 183px;
+  padding-left: 183px;
+  min-width: 800px;
+}
+
+h2,
+h3 {
+  text-align: right;
+}
+
+h2 {
+  font-size: 36px;
+  color: #010202;
+  padding: 30px 0 0 0;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8c8d91;
+}
+
+input {
+  font-style: italic;
+}
+
+table {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+hr {
+  margin: 15px 0px;
+}
+
+.card {
+  background-image: url("https://helpx.adobe.com/content/dam/help/en/illustrator/how-to/drawing-basics/jcr_content/main-pars/image/drawing-basics-intro_900x506.jpg");
+  background-size: cover;
+  background-position: 35%;
+  border: transparent;
+  position: relative;
+  left: 22%;
+}
+
+.container {
+  min-width: 700px;
+  width: 90%;
+  max-width: 900px;
+}
+
+.search-container {
+  width: 115%;
+  position: relative;
+  top: 60px;
+}
+
+.unit-conversion-container {
+  padding: 6px 0 0;
+  text-align: right;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#celsius-button,
+#fahrenheit-button,
+#current-location-button {
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  transition: 300ms ease-in-out;
+}
+
+#fahrenheit-button {
+  float: left;
+}
+
+#current-location-button {
+  position: relative;
+  left: 60px;
+}
+
+#celsius-button:hover,
+#fahrenheit-button:hover,
+#current-location-button:hover {
+  color: #454c54;
+}
+#current-day {
+  font-weight: 400;
+}
+
+.current-weather {
+  font-size: 60px;
+  font-weight: 500;
+  color: #ffffff;
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+
+.current-weather-emoji {
+  color: #ffffff;
+}
+
+#temp-units {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  left: -8px;
+  top: -29px;
+}
+
+.current-weather-conditions,
+.current-weather-conditions-values {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.current-weather-conditions {
+  text-align: right;
+}
+
+.current-weather-conditions-values {
+  font-weight: 600;
+}
+
+.current-day-forecast-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding: 0px 15px 0px 15px;
+}
+
+.day-forecast-by-hour-container {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.day-forecast-temperature {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.day-forecast-emoji {
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.day-forecast-hour {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.five-day-forecast-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 14px;
+}
+
+.five-day-forecast-panels {
+  text-align: center;
+  min-width: 70px;
+  max-width: 99px;
+  border: solid 1px #ffffff;
+  border-radius: 5px;
+  transition: 300ms ease-in-out;
+  flex-grow: 1;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 15px;
+}
+
+.five-day-forecast-panels:hover {
+  border: solid 1px #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #dfdfdf;
+}
+
+.forecast-day-one-day,
+.forecast-day-two-day,
+.forecast-day-three-day,
+.forecast-day-four-day,
+.forecast-day-five-day {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.forecast-day-one-emoji,
+.forecast-day-two-emoji,
+.forecast-day-three-emoji,
+.forecast-day-four-emoji,
+.forecast-day-five-emoji {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.forecast-day-one-temp,
+.forecast-day-two-temp,
+.forecast-day-three-temp,
+.forecast-day-four-temp,
+.forecast-day-five-temp {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.author {
+  padding-left: 183px;
+}
